@@ -1,6 +1,7 @@
 import { useCallback, useRef } from "react";
 import { sfxCard } from "../audio/engine";
 import { HERO_STATS, TYPEWRITER_ITEMS } from "../data";
+import Image from "../../public/image (2).png"
 import {
   Brackets,
   MagBtn,
@@ -54,7 +55,7 @@ function HeroCard() {
 
       {/* Profile image */}
       <img
-        src="../../public/image (2).png"
+        src={Image}
         alt="Amol Kadam"
         style={{
           position: "absolute",
